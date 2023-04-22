@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="author" content="Ugoo-Okonkwo Stella" />
+    <meta
+      name="description"
+      content="This is an app that calculates the age given to it and then outputs it in year, month and days."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main>
+      <article class="box">
+        <section class="group">
+          <form>
+            <section class="pots">
+              <section class="content">
+                <label for="day">DAY</label>
+                <input type="text" id="day" name="day" placeholder="DD" />
+                <p id="errorday" class="pull"></p>
+              </section>
+              <section class="content">
+                <label for="month">MONTH</label>
+                <input type="text" id="month" name="month" placeholder="MM" />
+                <p id="errormonth" class="pull"></p>
+              </section>
+              <section class="content">
+                <label for="year">YEAR</label>
+                <input type="text" id="year" name="year" placeholder="YYYY" />
+                <p id="erroryear" class="pull"></p>
+              </section>
+            </section>
+          </form>
+          <section class="btn">
+            <hr />
+            <button type="submit">
+              <img id="image" src="assets/images/icon-arrow.svg" alt="icon" />
+            </button>
+          </section>
+          <section class="fig">
+            <h1><span id="yy">-&nbsp-</span>years</h1>
+            <h1><span id="mm">-&nbsp-</span>months</h1>
+            <h1 class="dd"><span id="dd">-&nbsp-</span>days</h1>
+          </section>
+        </section>
+      </article>
+
+      <script src="main.js"></script>
+    </main>
+  </body>
+</html>
