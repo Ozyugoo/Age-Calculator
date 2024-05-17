@@ -129,6 +129,7 @@ span {
 @media screen and (max-width: 600px) {
     .box {
         width: 370px;
+        height: 500px;
     }
 
     .group {
